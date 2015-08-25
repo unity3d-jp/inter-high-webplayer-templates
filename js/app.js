@@ -18,7 +18,7 @@ ga('send', 'pageview');
 
 $(function () {
 
-    $.get("/access?path=" + location.pathname, function (res) {
+    $.get("https://inter-high-access-count.herokuapp.com/access?path=" + location.pathname, function (res) {
 
         if (res.playcount) $("#playcount_num").text(res.playcount)
         if (res.like) $("#like_game_num > span").text(res.like)
