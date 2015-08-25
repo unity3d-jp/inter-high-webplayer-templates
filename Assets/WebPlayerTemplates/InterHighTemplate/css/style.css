@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #ffffff;
+}
+
+body {
+    height: 100%;
+    background: #fff;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+a {
+    color: #F95158;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+div.content {
+    margin: auto;
+}
+
+div.broken,
+div.missing {
+    margin: auto;
+    position: relative;
+    top: 40%;
+    display: none;
+}
+
+div.broken img,
+div.missing img {
+    border-width: 0px;
+}
+
+div.broken {
+    display: none;
+}
+
+div#unityPlayer {
+    cursor: default;
+    background-color: #ffffff;
+    margin-top: 2em;
+}
+
+div.contentInformation {
+    position: relative;
+    width: 884px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+
+div.contentInformation h1 {
+    color: #1bbfb9;
+    font-size: 27px;
+    margin: 48px 0 0;
+    width: 480px;
+    line-height: 1.4;
+    min-height: 90px;
+}
+
+div#counter_box {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+div#info {
+    margin: 35px 0 0;
+}
+
+div#info h2 {
+    float: left;
+    width: 160px;
+    font-size: 16px;
+    color: #1bbfb9;
+    padding: 34px 0 0;
+}
+
+div#info h2:before {
+    content: url(../img/iconCircle.png);
+    padding: 0 10px 0 0;
+}
+
+div#info p {
+    background: url(../img/dot.png) repeat-x left top;
+    padding: 34px 0 34px 160px;
+    min-height: 17px;
+    margin: 0;
+    font-size: 15px;
+}
+
+div.footer {
+    margin: 85px auto 20px;
+    text-align: center;
+    background: url(../img/line.png) repeat-x;
+    width: 884px;
+    padding: 60px 0 0;
+}
+
+div.footer p {
+    color: #5a5a5a;
+    font-size: 11px;
+}
+
+.twitter > iframe {
+    height: 22px !important;
+}
+
+
+
+.content {
+    margin-top: 2em;
+}
