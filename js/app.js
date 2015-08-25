@@ -28,9 +28,13 @@ $(function () {
         $("#info").html(marked(res))
     })
 
-    $(".btn_good").click(function () {
+    $(".btn_good").on("click", function () {
         ga('send', 'event', 'like_game', 'click', location.pathname)
         $(this).attr("clicked", "true")
+        var count = parseInt($("#like_game_num > span").text()) + 1;
+        $("#like_game_num > span").text(count)
+
+        $(".btn_good").off("click");
     })
 
     $('a img.normal').hover(function () {
