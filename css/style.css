@@ -119,17 +119,7 @@ div.footer p {
     height: 22px !important;
 }
 
-.btn_good > img.done {
-    display: none;
-}
 
-.btn_good[clicked="true"] > img.normal {
-    display: none;
-}
-
-.btn_good[clicked="true"] > img.done {
-    display: inherit;
-}
 
 .content {
     margin-top: 2em;

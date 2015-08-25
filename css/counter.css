@@ -43,7 +43,8 @@ body #playcount div#play_head {
 }
 
 body #like_game {
-    text-align: right
+    text-align: right;
+    width: 340px;
 }
 
 body #like_game > a {
@@ -106,4 +107,16 @@ body #like_game_num > u {
 body #like_game_num > u {
     margin-left: -4px;
     border-right-color: #fff;
+}
+
+.btn_good > img.done {
+    display: none;
+}
+
+.btn_good[clicked="true"] > img.normal {
+    display: none;
+}
+
+.btn_good[clicked="true"] > img.done {
+    display: inherit;
 }
