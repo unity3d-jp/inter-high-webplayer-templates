@@ -10,7 +10,7 @@
     m.parentNode.insertBefore(a, m)
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-57144931-1', {
+ga('create', 'UA-66714239-1', {
     'cookieDomain': 'none'
 });
 ga('send', 'pageview');
