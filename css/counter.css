@@ -1,0 +1,109 @@
+
+body #unityPlayer {
+    text-align: center
+}
+
+body .share {
+    margin-top: 4px;
+    text-align: right;
+}
+
+body .share div {
+    display: inline-block
+}
+
+body .share .fb_iframe_widget {
+    top: -11px
+}
+
+body .share .twitter-share-button {
+    width: 105px !important
+}
+
+body .clear {
+    clear: both
+}
+
+body #playcount {
+    font-size: large;
+    text-align: right;
+    color: #5f5f5f;
+}
+
+body #playcount div#play_head, body #playcount div#playcount_num {
+    display: inline-block;
+}
+
+body #playcount div#play_head:after {
+    content: ":";
+}
+
+body #playcount div#play_head {
+    margin: 0 0 10px;
+}
+
+body #like_game {
+    text-align: right
+}
+
+body #like_game > a {
+    max-width: 300px;
+    width: auto;
+    padding: 0;
+    margin: -10px 0 0;
+    background: #ffffff;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: visible;
+    cursor: pointer;
+}
+
+body #like_game > a > img {
+    margin-top: -10px;
+}
+
+body #like_game_num > span {
+    text-align: center;
+    color: #5f5f5f;
+}
+
+body #like_game_num {
+    float: right;
+    background: #ffffff;
+    border: 1px solid #0da59e;
+    border-radius: 2px;
+    color: #4e5665;
+    display: inline-block;
+    font-size: 30px;
+    height: 50px;
+    max-width: 110px;
+    min-width: 50px !important;
+    line-height: 50px;
+    margin-left: 6px;
+    min-width: 15px;
+    padding: 0 10px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+}
+
+body #like_game_num > i,
+body #like_game_num > u {
+    position: absolute;
+    zoom: 1;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 50%;
+    margin: -4px 0 0 -6px;
+    border: 5px transparent solid;
+    border-right-color: #0da59e;
+    border-left: 0;
+}
+
+body #like_game_num > u {
+    margin-left: -4px;
+    border-right-color: #fff;
+}

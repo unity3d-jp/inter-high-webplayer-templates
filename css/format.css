@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+	font-family: Helvetica,Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ", Meiryo,"MS Pゴシック",sans-serif;
+}
+
+body,h1,h2,h3,p,ul,ol,dl,dt,dd,li,table,td,th{
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	line-height:1.7;/* base Macかメイリオなら1.6で最適 */
+	font-size:12px;
+	color: #1e1e1e;
+	letter-spacing: 1px;
+}
+
+img{border:none;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	line-height:0;
+	clear: both;
+	visibility: hidden;
+	margin-top:-1px;
+	font-size:1px;
+}
+.clearfix{
+	zoom:100%;
+}
+* html .clearfix {
+	/*\*/height: 1%;/*for WinIE*/
+	display: inline-table;/*for MacIE*/
+}
+.clear {
+	clear: both;
+}
