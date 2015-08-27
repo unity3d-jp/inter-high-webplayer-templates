@@ -2,13 +2,13 @@
 
 ## テンプレートを使う準備
 
-**Unityを起動したまま** InterHighTemplate.unitypackage をダブルクリックして、Unityプロジェクトにアセットをインポートします。
+メニューの「Assets/Import Package/Custom Pakage」より InterHighTemplate.unitypackage を選択して、Unityプロジェクトにアセットをインポートします。
 
-![](./img/ss01.gif)
+![](./img/ss01.png)
 
 次に「Player Settings」を開きます。そして、WebPlayerの項目を開き、Webplayer Template でインポートしたテンプレートを使用するためにインターハイのロゴがサムネイル画像となっているものをマウスでクリックします。
 
-![](https://i.gyazo.com/d283e8dd2d4a0a48c05e493161130c8c.gif)
+![](./img/ss02.gif)
 
 次に、ゲーム名を設定します。「Player Settings」を開き、Product Name にゲーム名を入力します。
 
